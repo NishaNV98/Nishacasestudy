@@ -1,0 +1,85 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-10T06:06:30.394Z",
+        "line": 7,
+        "name": "Successfull login with valid credentials",
+        "description": "",
+        "id": "login-action;successfull-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "navigate to homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "user enters username and password",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Lalitha",
+                  "Password123"
+                ]
+              },
+              {
+                "cells": [
+                  "Rick",
+                  "Rick123"
+                ]
+              },
+              {
+                "cells": [
+                  "Andrew",
+                  "Andrew123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "LOGIN ACTION",
+    "description": "  Login Action Functionality",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "classpath:case1/case.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
